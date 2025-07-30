@@ -52,6 +52,9 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				'radio-wave': 'hsl(var(--radio-wave))',
+				'radio-pulse': 'hsl(var(--radio-pulse))',
+				'radio-glow': 'hsl(var(--radio-glow))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -84,11 +87,26 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'wave-pulse': {
+					'0%, 100%': { transform: 'scaleY(0.5)' },
+					'50%': { transform: 'scaleY(1.5)' }
+				},
+				'radio-glow': {
+					'0%, 100%': { boxShadow: '0 0 20px hsl(var(--primary) / 0.5)' },
+					'50%': { boxShadow: '0 0 40px hsl(var(--primary) / 0.8)' }
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0px)' },
+					'50%': { transform: 'translateY(-10px)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'wave-pulse': 'wave-pulse 1.5s ease-in-out infinite',
+				'radio-glow': 'radio-glow 2s ease-in-out infinite',
+				'float': 'float 3s ease-in-out infinite'
 			}
 		}
 	},
