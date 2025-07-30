@@ -17,7 +17,7 @@ All colors MUST be HSL.
     --popover: 220 20% 12%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 25 95% 53%;
+    --primary: 217 91% 60%;
     --primary-foreground: 220 15% 8%;
 
     --secondary: 220 25% 15%;
@@ -26,7 +26,7 @@ All colors MUST be HSL.
     --muted: 220 25% 15%;
     --muted-foreground: 215 20% 65%;
 
-    --accent: 45 93% 58%;
+    --accent: 200 98% 48%;
     --accent-foreground: 220 15% 8%;
 
     --destructive: 0 84% 60%;
@@ -34,11 +34,11 @@ All colors MUST be HSL.
 
     --border: 220 25% 20%;
     --input: 220 25% 20%;
-    --ring: 25 95% 53%;
+    --ring: 217 91% 60%;
 
-    --radio-wave: 195 100% 50%;
-    --radio-pulse: 280 100% 60%;
-    --radio-glow: 25 95% 53%;
+    --radio-wave: 217 91% 60%;
+    --radio-pulse: 200 98% 48%;
+    --radio-glow: 217 91% 60%;
     
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
     --gradient-hero: linear-gradient(135deg, hsl(220 20% 8%), hsl(220 25% 12%));
